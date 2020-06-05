@@ -6,7 +6,7 @@ Many thanks to the original authors contributions! <br>
 <br>
 The implementation of `section 4.1. Mesh Warping, Rigging, & Skinning` of the original paper is complete. With an input including human of front view and without self-occlusion, a 3D-model that matches the boundary of the input human area could be constructed. Texture, animation and background could be added using Maya2019. <br>
 <br>
-The implementation of `section 4.2 Self-occlusion` is not completed. File `smpl_seg` includes the per-vertex label of smpl model(based on https://github.com/ZhengZerong/SmplLabeling), and codes in file `labelmap` could be used to generate and warp body label map. However, those final steps to deal with self-occlusion are not implemented in this project. <br>
+The implementation of `section 4.2 Self-occlusion` is not completed. File `smpl_seg` includes the per-vertex label of smpl model (based on https://github.com/ZhengZerong/SmplLabeling), and codes in file `labelmap` could be used to generate and warp body label map. However, those final steps to deal with self-occlusion are not implemented in this project. <br>
 # Examples
 <img src="https://github.com/yczhang-seu/yuchen-PhotoWakeUp/raw/master/result/1.png" width="300" height="300" alt=""><img src="https://github.com/yczhang-seu/yuchen-PhotoWakeUp/raw/master/result/WakeUp1_front.gif" width="300" height="300" alt=""> <br>
 <img src="https://github.com/yczhang-seu/yuchen-PhotoWakeUp/raw/master/result/5.jpg" width="300" height="300" alt=""><img src="https://github.com/yczhang-seu/yuchen-PhotoWakeUp/raw/master/result/WakeUp5_front.gif" width="300" height="300" alt=""><br>
