@@ -10,6 +10,8 @@ The implementation of `section 4.2 Self-occlusion` is not completed. File smpl_s
 # Examples
 <img src="https://github.com/yczhang-seu/yuchen-PhotoWakeUp/raw/master/result/WakeUp1_front.gif" width="300" height="300" alt="">
 <img src="https://github.com/yczhang-seu/yuchen-PhotoWakeUp/raw/master/result/WakeUp1_side.gif" width="300" height="300" alt="">
+<br>
+
 # How to use
 1. Find a proper input image. The position of the human needs to nearly be at the center, and the human should not include self-occlusion. Use the modified `SPIN` to generate the cropped input (larger input will be cropped to 224* 224), the depth maps and the smpl models. 
 2. Generate masks of the cropped input image and smpl models, this could be manually done by Adobe Photoshop.<br>
