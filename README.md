@@ -1,4 +1,4 @@
-# yuchen-PhotoWakeUp
+# yc-PhotoWakeUp
 Implementation of CVPR2019 paper - Photo Wake-Up: 3D Character Animation from a Single Photo <br>
 <br>
 The original project website (and paper): https://grail.cs.washington.edu/projects/wakeup/ <br>
