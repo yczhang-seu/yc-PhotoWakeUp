@@ -8,7 +8,7 @@ The implementation of section 4.1. Mesh Warping, Rigging, & Skinning of the orig
 <br>
 The implementation of section 4.2 Self-occlusion is not completed. File smpl_seg includes the per-vertex label of smpl model, and codes in file labelmap could be used to generate and warp body label map. However, those final steps to deal with self-occlusion are not implemented in this project. <br>
 # Examples
-![](https://github.com/yczhang-seu/yuchen-PhotoWakeUp/raw/master/result/WakeUp1_front.gif)
+![](https://github.com/yczhang-seu/yuchen-PhotoWakeUp/raw/master/result/WakeUp1_front.gif width="200")
 ![](https://github.com/yczhang-seu/yuchen-PhotoWakeUp/raw/master/result/WakeUp1_side.gif)
 <br>
 # How to use
