@@ -17,8 +17,8 @@ The implementation of `section 4.2 Self-occlusion` is not completed. File `smpl_
 1. Find a proper input image. The position of the human needs to nearly be at the center, and the human should not include self-occlusion. Use the modified `SPIN`: https://github.com/yczhang-seu/SPIN to generate the cropped input (larger input will be cropped to 224* 224), the depth maps and the smpl models. 
 2. Generate masks of the cropped input image and smpl models, this could be manually done by Adobe Photoshop.<br>
 3. Put the masks and depth maps in file `data`. Modify the dirs in `main.py`, then run the code. To check if the contours are matched properly, use `pc.dispCorres()`, and if the matching is not good enough, increase the last param of `pc.dpBoundarymatch()` （e.g. from 32 to 64).<br>
-4. Check the model in file `output`. The obj file could be displayed and modified in Maya2019. To change the thickness of the model, change the related param in `outputvert()`. If you want to generate a new obj model, please delete the old one first. <br>
+4. Check the model in file `output`. The obj file could be displayed and modified in Maya2019. To change the thickness of the model, change the related param in `outputvert()`. If you want to generate a new model, please delete the old one first. <br>
 5. Use Maya2019 to add texture and background, make animation, etc.<br> 
 
 # Please note
-As a beginner project in python, the result is far from perfect. The generated model is quite coarse, and further manual adjustments are needed in most cases. If you have any suggestions to make the project better, please let me know!
+As a beginner project in python, the result is far from perfect. The generated models are quite coarse, and further manual adjustments are needed in most cases. If you have any suggestions to make the project better, please let me know!
