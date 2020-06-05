@@ -21,4 +21,4 @@ The implementation of `section 4.2 Self-occlusion` is not completed. Folder `smp
 5. Use Maya2019 to add texture and background, make animation, etc.<br> 
 
 # Please note
-As a beginner project in python, the result is far from perfect. The generated models are quite coarse, and further manual adjustments are needed in most cases. If you have any suggestions to make the project better, please let me know!
+As a beginner project in python, the result is far from perfect. The generated models are quite coarse, and further manual adjustments are needed in most cases. If you have any suggestions to make this project better, please let me know!
